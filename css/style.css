@@ -1,0 +1,425 @@
+body {
+  background-color: #f1f6fa;
+}
+
+.AddtoCart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 259px;
+  height: 42px;
+  border-radius: 21px;
+  border: 2px solid #00ca00;
+  background-color: #ffffff;
+}
+
+.maintext {
+  color: #2b2b2b;
+  font-family: "Baloo Tammudu 2";
+}
+
+.bigwhite {
+  color: #ffffff;
+  font-family: "Baloo Tammudu 2";
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__logo__btn {
+  background-color: #00ca00;
+  border-radius: 20px 0 0 20px;
+}
+
+.header__search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__search__input {
+  width: 452px;
+  height: 40px;
+  border-radius: 0 20px 20px 0;
+  background-color: #ffffff;
+  border: none;
+}
+
+.header__search__input__img {
+  width: 19px;
+  height: 20px;
+  margin: 9px   19px   12px  0;
+}
+
+.navigation {
+  height: 56px;
+  background-color: #0074ea;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Cart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Cart__img {
+  width: 40px;
+  height: 40px;
+  background-color: #ffbd00;
+  border-radius: 50%;
+}
+
+.Cart__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.promos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.promos__cardToys {
+  width: 732px;
+  height: 482px;
+  border-radius: 10px;
+  background-color: #00aaff;
+}
+
+.promos__cardToys__img {
+  width: 1395px;
+  height: 451px;
+}
+
+.promos__cardBarbie {
+  width: 417px;
+  height: 231px;
+  border-radius: 10px;
+  background-color: #ff0c7b;
+}
+
+.promos__cardBarbie__img {
+  width: 135px;
+  height: 217px;
+}
+
+.promos__cardCar {
+  width: 417px;
+  height: 231px;
+  border-radius: 10px;
+  background-color: #00ca00;
+}
+
+.promos__cardCar__img {
+  width: 222px;
+  height: 194px;
+}
+
+.promos .double {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.offers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.discounts__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.discounts__body__train {
+  width: 244px;
+  height: 128px;
+}
+
+.discounts__body__ducks {
+  width: 178px;
+  height: 195px;
+}
+
+.discounts__body__sportcar {
+  width: 220px;
+  height: 138px;
+}
+
+.discounts__body__Camerica {
+  width: 181px;
+  height: 182px;
+}
+
+.discounts__body__card {
+  width: 289px;
+  height: 439px;
+  border-radius: 10px;
+  border: 1px solid #e9e9e9;
+  background-color: #ffffff;
+}
+
+.discounts__body__text-background {
+  width: 90px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #ff250d;
+  width: 64px;
+}
+
+.discounts__body__text-style-white {
+  width: 64px;
+  height: 29px;
+  color: #ffffff;
+  font-family: "Baloo Tammudu 2";
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 19px;
+}
+
+.discounts__body__text-style-black {
+  width: 64px;
+  height: 24px;
+  color: #333333;
+  font-family: "Baloo Tammudu 2";
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 19px;
+}
+
+.discounts__product__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 210px;
+  height: 42px;
+  border-radius: 21px;
+  border: 2px solid #00ca00;
+  background-color: #ffffff;
+}
+
+.discounts__product__text__Add_to_Cart {
+  width: 79px;
+  height: 12px;
+  color: #2b2b2b;
+  font-family: "Baloo Tammudu 2";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 19px;
+}
+
+.announcements {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about__img {
+  width: 578px;
+  height: 336px;
+}
+
+.about__headerText {
+  width: 227px;
+  height: 36px;
+  color: #2b2b2b;
+  font-family: "Baloo Tammudu 2";
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 37px;
+  text-transform: uppercase;
+}
+
+.about__Texta {
+  width: 615px;
+  height: 94px;
+  color: #2b2b2b;
+  font-family: "Baloo Tammudu 2";
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.about__Textf {
+  width: 611px;
+  height: 90px;
+  color: #2b2b2b;
+  font-family: "Baloo Tammudu 2";
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.about__Readmore {
+  width: 78px;
+  height: 12px;
+  color: #ffc125;
+  font-family: "Baloo Tammudu 2";
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.content__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.content__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.content .popular {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.content .popular__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.content .popular__content__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.content .popular__content__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.content .popular__content__card {
+  width: 354px;
+  height: 200px;
+  border-radius: 10px;
+  border: 1px solid #e9e9e9;
+  background-color: #ffffff;
+}
+
+.content .popular__content__card-title {
+  width: 184px;
+  height: 35px;
+  color: #2b2b2b;
+  font-family: "Baloo Tammudu 2";
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 19px;
+}
+
+.content .popular__content__card-price {
+  width: 63px;
+  height: 24px;
+  color: #333333;
+  font-family: "Baloo Tammudu 2";
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 19px;
+}
+
+.content .reviews__subhead__textB {
+  width: 394px;
+  height: 110px;
+  color: #2b2b2b;
+  font-family: "Baloo Tammudu 2";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.content .reviews__subhead__textS {
+  width: 383px;
+  height: 38px;
+  color: #2b2b2b;
+  font-family: "Baloo Tammudu 2";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.map {
+  background-image: url(../img/map.png);
+  background-size: cover;
+  width: 100%;
+  height: 469px;
+}
+
+.footer {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 56px;
+  background-color: #0074ea;
+}
+
+.footer__title {
+  white-space: nowrap;
+  margin-left: 37px;
+  width: 129px;
+  height: 14px;
+  color: #ffffff;
+  font-family: "Baloo Tammudu 2";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.footer__company {
+  white-space: nowrap;
+  margin-right: 18px;
+  width: 135px;
+  height: 14px;
+  color: #ffffff;
+  font-family: "Baloo Tammudu 2";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+/*# sourceMappingURL=style.css.map */
